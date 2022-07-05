@@ -8,7 +8,135 @@ body{
 .BannerWrapper{
     background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100px 0px;
 }
+.bannertextWrapper{
+    width: 840px;
+    margin: 20px auto;
+    text-align: center;
+}
+.bannertextWrapper p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.bannertextWrapper h1{
+    font-size: 65px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.bannertextWrapper a{
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #ff5959;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 14px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+}
+
+.donatefieldWrapper{
+    width: 800px;
+    margin: 80px auto;
+}
+.donatefieldTitle{
+    text-align: center;
+    width: 700px;
+    margin: 0px auto;
+}
+.donatefieldTitle p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+.donatefieldTitle h1{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0px;
+}
+.amountboxWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box{
+    width: 18%;
+    padding: 23px 0px;
+    text-align: center;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+.box h2{
+    color: #707070;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+
+}
+#box-two{
+
+    border: 2px solid #ff5959;
+    background-color: #FFEEEE;
+    color: #ff5959;
+}
+.inputAmount{
+    text-align: center;
+}
+.inputAmount input{
+    width: 100%;
+    border: 0px;
+    height: 50px;
+    border-bottom: 2px solid #c9c9c9;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 15px;
+}
+.inputAmount input::placeholder{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.inputAmount button{
+    background-color: #ff5959;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 14px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.donateplaneWrapper{
+    width: 1130px;
+    margin: 90px auto;
+}
+
+
 
 
 footer{
