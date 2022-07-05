@@ -1,0 +1,16 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.BannerWrapper{
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+}
+
+
+footer{
+    font-family: 'Nunito', sans-serif;
+}
